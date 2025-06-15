@@ -1,0 +1,103 @@
+
+/* Base Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #1E3A8A;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(to right, #1E3A8A, #22C55E);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero .btn {
+    background-color: white;
+    color: #1E3A8A;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    background-color: #e0e7ff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.consultation form {
+    display: flex;
+    flex-direction: column;
+}
+
+.consultation form label {
+    margin-top: 10px;
+}
+
+.consultation form input[type="text"],
+.consultation form input[type="email"],
+.consultation form input[type="tel"] {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.consultation form button {
+    background-color: #22C55E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.consultation form button:hover {
+    background-color: #16a34a;
+}
+
+.contact a {
+    color: #1E3A8A;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1E3A8A;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
